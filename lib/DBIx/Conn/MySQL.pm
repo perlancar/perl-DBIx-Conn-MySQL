@@ -25,8 +25,8 @@ sub import {
         shift;
     }
 
-    my $user = shift if @_;
-    my $pass = shift if @_;
+    my $user; $user = shift if @_;
+    my $pass; $pass = shift if @_;
 
     my $dbh = DBIx::Connect::MySQL->connect($dsn, $user, $pass);
 

@@ -116,3 +116,10 @@ as long as the username does not begin with C<$>):
 
 But note that specifying passwords on the command-line is not recommended (hence
 the use of DBIx::Connect::MySQL in the first place).
+
+
+=head1 SEE ALSO
+
+L<DBIx::Conn::Pg>
+
+L<DBIx::Conn::SQLite>

@@ -1,4 +1,4 @@
-DBIx-Conn-MySQL-*
+DBIx-Conn-SQLite-*
 .build
 *~
 nytprof*

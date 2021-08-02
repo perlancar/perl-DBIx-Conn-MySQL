@@ -2,3 +2,4 @@ DBIx-Conn-SQLite-*
 .build
 *~
 nytprof*
+.DS_Store
